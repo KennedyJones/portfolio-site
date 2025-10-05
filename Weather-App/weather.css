@@ -1,0 +1,71 @@
+:root {
+  --bg: #0b0b0b;
+  --card: #111;
+  --text: #e7e7e7;
+  --accent: #f5b647;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+header {
+  background: linear-gradient(135deg, #4146e5, #9333ea);
+  color: white;
+  padding: 2em;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 2em auto;
+  background: #1e1e1e;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.search input {
+  flex: 1;
+  padding: 0.75em;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background: #0e0e0e;
+  color: white;
+}
+
+.search button {
+  background: var(--accent);
+  border: none;
+  padding: 0.75em 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  color: black;
+}
+
+#weather {
+  margin-top: 1.5em;
+  padding: 1em;
+  background: var(--card);
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #aaa;
+  margin-top: 2em;
+}

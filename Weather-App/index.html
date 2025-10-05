@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather — Minimal & Cocky</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Weather — minimal, fast, and better than your local news app</h1>
+  </header>
+
+  <main>
+    <div class="search">
+      <input id="query" placeholder="Search city (e.g., Humble, TX or Marrakech)" autocomplete="off">
+      <button id="searchBtn">Search</button>
+      <button id="locBtn">Use my location</button>
+      <button id="settingsBtn" title="Toggle units">⚙️</button>
+    </div>
+
+    <section class="results">
+      <div id="weather">
+        <p>Loading...</p>
+      </div>
+      <div id="forecast"></div>
+    </section>
+  </main>
+
+  <footer>
+  <p>Data by <a href="https://open-meteo.com/" target="_blank">Open-Meteo</a> • You by you. Toggle units with the ⚙️.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
