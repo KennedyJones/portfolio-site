@@ -1,0 +1,106 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #333;
+}
+
+body.dark-mode {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+header {
+  background: linear-gradient(135deg, #4f46e5, #9333ea);
+  color: white;
+  padding: 2em;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 0.5em 0 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 1em;
+  background: #fafafa;
+  border-radius: 8px;
+}
+
+#about {
+  background: white;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-top: 2em;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #eee;
+  margin-top: 3em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+nav ul li a {
+  color:white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color:#ffcc00
+}
+
+#Projects article {
+  background: #fafafa;
+    background: #222;
+  color: #fafafa;
+  padding: 1.5em;
+  margin: 1em 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#Projects h3 {
+  margin-top: 0;
+  color:#4f46e5
+}
+
+#themeToggle {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5em;
+  cursor: pointer;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+:root {
+  color-scheme: light dark;
+}
+:root, body {transition: 0.25s, color 0.25s}
+
+body.dark-mode {
+  background: #121212;
+  color: #e0e0e0;
+}
