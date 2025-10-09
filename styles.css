@@ -58,6 +58,12 @@ footer {
   margin-top: 3em;
 }
 
+body.dark-mode footer {
+  background: #181818;
+  color: #aaa;
+}
+}
+
 nav ul {
   list-style: none;
   margin: 0;
@@ -68,14 +74,23 @@ nav ul {
 }
 
 nav ul li a {
-  color:white;
+  color: white;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s;
 }
 
 nav ul li a:hover {
-  color:#ffcc00
+  color: #ffcc00;
+}
+
+body.dark-mode nav ul li a {
+  color: #fafafa;
+}
+
+body.dark-mode nav ul li a:hover {
+  color: #ffd700;
+}
 }
 
 #Projects article {
@@ -94,7 +109,12 @@ body.dark-mode #Projects article {
 
 #Projects h3 {
   margin-top: 0;
-  color:#4f46e5
+  color: #4f46e5;
+}
+
+body.dark-mode #Projects h3 {
+  color: #a5b4fc;
+}
 }
 
 #themeToggle {
@@ -110,10 +130,4 @@ body.dark-mode #Projects article {
 
 :root {
   color-scheme: light dark;
-}
-:root, body {transition: 0.25s, color 0.25s}
-
-body.dark-mode {
-  background: #121212;
-  color: #e0e0e0;
 }
