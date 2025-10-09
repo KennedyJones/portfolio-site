@@ -34,12 +34,21 @@ main {
   border-radius: 8px;
 }
 
+body.dark-mode main {
+  background: #181818;
+}
+
 #about {
   background: white;
   padding: 2em;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   margin-top: 2em;
+}
+
+body.dark-mode #about {
+  background: #222;
+  color: #fafafa;
 }
 
 footer {
@@ -71,12 +80,16 @@ nav ul li a:hover {
 
 #Projects article {
   background: #fafafa;
-    background: #222;
-  color: #fafafa;
+  color: #222;
   padding: 1.5em;
   margin: 1em 0;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+body.dark-mode #Projects article {
+  background: #222;
+  color: #fafafa;
 }
 
 #Projects h3 {
