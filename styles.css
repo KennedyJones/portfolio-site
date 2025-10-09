@@ -62,7 +62,11 @@ body.dark-mode footer {
   background: #181818;
   color: #aaa;
 }
+
+body.dark-mode footer p {
+  color: #aaa;
 }
+
 
 nav ul {
   list-style: none;
@@ -91,7 +95,7 @@ body.dark-mode nav ul li a {
 body.dark-mode nav ul li a:hover {
   color: #ffd700;
 }
-}
+
 
 #Projects article {
   background: #fafafa;
@@ -115,7 +119,7 @@ body.dark-mode #Projects article {
 body.dark-mode #Projects h3 {
   color: #a5b4fc;
 }
-}
+
 
 #themeToggle {
   background: none;
