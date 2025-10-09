@@ -60,12 +60,16 @@ footer {
 
 body.dark-mode footer {
   background: #181818;
-  color: #fdfafa;
+  color: #aaa;
+}
+
+body.dark-mode footer p {
+  color: #fff;
+}
 }
 
 body.dark-mode footer p {
   color: #fafafa;
-  background: #222;
 }
 
 
